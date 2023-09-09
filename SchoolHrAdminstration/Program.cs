@@ -25,6 +25,8 @@ public class Program
         
         IEmployee r = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher,  1,"Loor","J", 20000);
         employees.Add(r);
+        IEmployee p = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher,  1,"Jjumba","Eric", 20000);
+        employees.Add(p);
     }
 }
 
