@@ -16,6 +16,7 @@ public class Program
     /*Seed Data*/
     public static void seedData(List<IEmployee> employees)
     {
+        /*Sample*/
         IEmployee t = EmployeeFactory.GetEmployeeInstance(EmployeeType.Teacher,  1,"Jimmy","k", 2000);
         employees.Add(t);
         
